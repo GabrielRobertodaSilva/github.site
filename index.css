@@ -15,10 +15,11 @@ a{
     text-decoration: none;
 }
 header img{
-    width: 100px;
+    width: 150px;
     height: 150px; 
     border-radius: 50%;
     border: 5px solid green;
+    transform: rotate(-35deg);
 }
 
 .center{
@@ -49,4 +50,9 @@ footer p {
 }
 nav a:hover{
     color: green;
+}
+.project{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
